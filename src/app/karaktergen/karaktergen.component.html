@@ -1,0 +1,71 @@
+<div class="container mt-3 col">
+    <div class="row">
+        <div class="col-6"><input type="text" class="form-control mb-2" id="nevezes" placeholder="Karakter neve"
+                [(ngModel)]="nevezes"></div>
+        <div class="col-6"><input type="text" class="form-control mb-2" id="szarmazas" placeholder="Karakter származása"
+                [(ngModel)]="szarmazas"></div>
+    </div>
+    <div class="row">
+        <div class="col-6"><input type="text" class="form-control mb-2" id="nyelvek"
+                placeholder="Beszélt nyelvek( max 4 nyelv, afelett csak megfelelő képességgel)" [(ngModel)]="nyelvek">
+        </div>
+        <div class="col-6"><input type="text" class="form-control mb-2" id="kinezet"
+                placeholder="Karakter kinézete(rövid jellemzők)" [(ngModel)]="kinezet"></div>
+    </div>
+    <div class="row">
+        <div class="col-6"><input type="text" class="form-control mb-2" id="jellemzo" placeholder="Karakter jellemzői"
+                [(ngModel)]="jellemzo"></div>
+        <div class="col-6"><input type="text" class="form-control mb-2" id="negyes" placeholder="4-es szintű képesség"
+                [(ngModel)]="negyes"></div>
+    </div>
+    <div class="row">
+        <div class="col-6"><input type="text" class="form-control mb-2" id="harmas1" placeholder="3-as szintű képesség"
+                [(ngModel)]="harmas1"></div>
+        <div class="col-6"><input type="text" class="form-control mb-2" id="harmas2" placeholder="3-as szintű képesség"
+                [(ngModel)]="harmas2"></div>
+    </div>
+    <div class="row">
+        <div class="col-6"><input type="text" class="form-control mb-2" id="kettes1" placeholder="2-es szintű képesség"
+                [(ngModel)]="kettes1"></div>
+        <div class="col-6"><input type="text" class="form-control mb-2" id="kettes2" placeholder="2-es szintű képesség"
+                [(ngModel)]="kettes2"></div>
+    </div>
+    <div class="row">
+        <div class="col-6"><input type="text" class="form-control mb-2" id="kettes3" placeholder="2-es szintű képesség"
+                [(ngModel)]="kettes3"></div>
+        <div class="col-6"><input type="text" class="form-control mb-2" id="egyes1" placeholder="1-es szintű képesség"
+                [(ngModel)]="egyes1"></div>
+    </div>
+    <div class="row">
+        <div class="col-6"><input type="text" class="form-control mb-2" id="egyes2" placeholder="1-es szintű képesség"
+                [(ngModel)]="egyes2"></div>
+        <div class="col-6"><input type="text" class="form-control mb-2" id="egyes3" placeholder="1-es szintű képesség"
+                [(ngModel)]="egyes3"></div>
+    </div>
+    <div class="row">
+        <div class="col-6"><input type="text" class="form-control mb-2" id="egyes4" placeholder="1-es szintű képesség"
+                [(ngModel)]="egyes4"></div>
+        <div class="col-6"><input type="text" class="form-control mb-2" id="egyes5" placeholder="1-es szintű képesség"
+                [(ngModel)]="egyes5"></div>
+    </div>
+    <app-inputabilities></app-inputabilities>
+    <div class="row">
+        <div class="col-5"><input type="text" class="form-control mb-2" id="targy1" placeholder="Hozott tárgy"
+                [(ngModel)]="targy1"></div>
+        <div class="col-1"><select class="form-select" id="numberSelect" [(ngModel)]="db1">
+            <optgroup label="Válassz egy számot">
+                <option selected value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option></optgroup>
+            </select></div>
+        <div class="col-5"><input type="text" class="form-control mb-2" id="targy2" placeholder="Hozott tárgy"
+                [(ngModel)]="targy2"></div>
+        <div class="col-1"><input type="text" class="form-control mb-2" id="db2" placeholder="db" [(ngModel)]="db2">
+        </div>
+    </div>
+    
+    <div class="justify-content-center d-flex mt-2"><button class="btn btn-success col-4"
+            (click)="savechar()">Gomba</button></div>
+</div>

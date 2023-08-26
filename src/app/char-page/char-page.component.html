@@ -1,0 +1,95 @@
+<div class="container mt-3">
+  <div class="row justify-content-between">
+    <div class="col-4">
+      <div class="row">
+        <table class="table table-success border-success-subtle table-bordered text-center table-hover">
+          <thead>
+            <tr>
+              <th>Képesség</th>
+              <th>Szint</th>
+              <th>Használat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let buy of char; let i = index" data-bs-toggle="tooltip" data-bs-placement="top"
+              title={{buy.description}}>
+              <td (dblclick)="incrementSecondField(i)">{{ buy.name }}</td>
+              <td [ngClass]="{'text-danger': buy.level >= 4}">{{ buy.level }}</td>
+              <td>{{ use[i]?.use || 0 }}</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="row">
+          <div class="col"><button class="btn btn-success mb-3" (click)="summarum()">Mentés</button></div>
+          <div class="col"><button class="btn btn-primary mb-3" (click)="reset()">Reset</button></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="row"><img src="../assets/buy.png" class="rounded" alt="portré" style="max-width: 100%;"></div>
+      <div class="row">
+        <table class="table table-success border-success-subtle table-bordered text-center mt-3 table-hover">
+          <tbody>
+            <tr>
+              <th>Név</th>
+              <td>Glazo fia Buj</td>
+            </tr>
+            <tr>
+              <th>Származás</th>
+              <td>Nyenyenc, Kazan városától északra, Jaran törzs</td>
+            </tr>
+            <tr>
+              <th>Beszélt nyelvek</th>
+              <td>Nyenyenc, Szláv, Mongol, Szkíta, Germán</td>
+            </tr>
+            <tr>
+              <th>Kinézet</th>
+              <td>45éves, 165cm, 80kg, Hosszú szakáll</td>
+            </tr>
+            <tr>
+              <th>Jellemzők</th>
+              <td>Megfontolt, Magabiztos, Nyitott, Barátságos, Tisztelettudó</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="col-4 ps-4">
+      <div class="row">
+        <table class="table table-success border-success-subtle table-bordered text-center table-hover">
+          <thead>
+            <tr>
+              <th>Felszerelés</th>
+              <th>Mennyiség</th>
+              <th>Tulajdonság</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let felsz of equip">
+              <td>{{ felsz.name }}</td>
+              <td>{{ felsz.quantity }}</td>
+              <td>{{ felsz.property }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="row">
+        <table class="table table-success border-success-subtle table-bordered text-center table-hover">
+          <thead>
+            <tr>
+              <th>Sérülések</th>
+              <th>Hatások</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let allapot of state" data-bs-toggle="tooltip" data-bs-placement="top"
+              title={{allapot.description}}>
+              <td>{{allapot.name}}</td>
+              <td>{{allapot.state}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

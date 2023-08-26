@@ -1,0 +1,13 @@
+[
+    {"name": "Farkasos pajzs", "quantity": 1, "property": "Misztikus"},
+    {"name": "Fehérarany gyűrű", "quantity": 1, "property": "Gyógyító"},
+    {"name": "Fehérfarkas prém", "quantity": 1, "property": "Szellemkapcsolat"},
+    {"name": "Aranyozott pikkelyvért", "quantity": 1, "property": "Drága"},
+    {"name": "Hajítóbárd", "quantity": 1, "property": "Átlagos"},
+    {"name": "Csontkovács készlet", "quantity": 1, "property": "Precíz"},
+    {"name": "Furulya", "quantity": 1, "property": "Nyugtató"},
+    {"name": "Viking kard", "quantity": 1, "property": "Átlagos"},
+    {"name": "Díszes tőr", "quantity": 1, "property": "Átlagon felüli"},
+    {"name": "Ajzószer", "quantity": 1},
+    {"name": "Ostor", "quantity": 1}
+  ]

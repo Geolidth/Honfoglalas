@@ -1,0 +1,27 @@
+[
+      {"name": "Csontkovácsolás", "level": 4, "description":"Gyógyítás, támadás, védekezás, erősítés, bűvölések, gyengepontok, kézügyesség", "use":0},
+      {"name": "Farkashatalom", "level" : 4, "description":"Ösztön, kommunikásió, átváltozás, képességjavítás, farkasok irányítása, falka", "use":0},
+      {"name": "Botanika", "level": 3, "description":"Mérgek, erősítők, gyógyítás, élelem, bűvölések, ritkaságok ismerete", "use":0},
+      {"name": "Anatómia", "level": 3, "description":"Gyógyítás, támadás, védekezés, gyengepontok, erősítés, bűvölések, ellenfél felmérése", "use":0},
+      {"name": "Logika", "level": 3, "description":"Problémamegoldás, analitikus gondolkodás, igazságvizsgálat, stratégia, viták, érvelés, bűvölések, nyomozás", "use":0},
+      {"name": "Rejtőzködés", "level": 3, "use":0},
+      {"name": "Farkas-szellem", "level": 3, "description":"Szellemi tanács, ősi tudés, érzékelés, szellemvilág, állatvilág", "use":0},
+      {"name": "Reflex", "level": 2, "use":0},
+      {"name": "Harcművészet(keleti)", "level": 2, "use":0},
+      {"name": "Nyomkövetés", "level": 2, "use":0},
+      {"name": "Tanulás", "level": 2, "use":0},
+      {"name": "Párbaj", "level": 2, "use":0},
+      {"name": "Kapcsolat(Szláv)", "level": 2, "use":0},
+      {"name": "Álomvilág", "level": 2, "use":0},
+      {"name": "Pajzsharc(Farkasos)", "level": 2, "use":0},
+      {"name": "Sebkötözés", "level": 1, "use":0},
+      {"name": "Csapdaállítás", "level": 1, "use":0},
+      {"name": "Erő", "level": 1, "use":0},
+      {"name": "Hiányos árnyék", "level": 1, "use":0},
+      {"name": "Viking kinézet", "level": 2, "use":0},
+      {"name": "Állatismeret(Farkasok)", "level": 1, "use":0},
+      {"name": "Zenélés(Furulya)", "level": 1, "description":"Szórakozás, afrodiziákum, titkos kommunikáció, varázslat, bűvölések, meditáció", "use":0},
+      {"name": "Tanítvány(Nevenincs)", "level": 1, "use":0}
+    ]
+  
+  
